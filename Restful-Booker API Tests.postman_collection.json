@@ -249,18 +249,12 @@
           }
         },
         "url": {
-          "raw": "{{base_url}}/auth?Content-Type=application/json",
+          "raw": "{{base_url}}/auth",
           "host": [
             "{{base_url}}"
           ],
           "path": [
             "auth"
-          ],
-          "query": [
-            {
-              "key": "Content-Type",
-              "value": "application/json"
-            }
           ]
         }
       },
@@ -297,13 +291,13 @@
           }
         },
         "url": {
-          "raw": "{{base_url}}/booking/{{booking_id}}",
+          "raw": "{{base_url}}/booking/1",
           "host": [
             "{{base_url}}"
           ],
           "path": [
             "booking",
-            "{{booking_id}}"
+            "1"
           ]
         }
       },
